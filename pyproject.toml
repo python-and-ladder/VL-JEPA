@@ -1,0 +1,20 @@
+[project]
+name = "vl-jepa"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+authors = [
+    { name = "vaishnavivaishnavi7715@gmail.com", email = "vaishnavivaishnavi7715@gmail.com" }
+]
+requires-python = ">=3.11"
+dependencies = [
+    "numpy>=2.4.6",
+    "torch>=2.13.0",
+]
+
+[project.scripts]
+vl-jepa = "vl_jepa:main"
+
+[build-system]
+requires = ["uv_build>=0.12.3,<0.13.0"]
+build-backend = "uv_build"
