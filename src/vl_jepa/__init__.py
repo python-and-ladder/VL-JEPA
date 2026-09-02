@@ -1,2 +1,3 @@
-def main() -> None:
-    print("Hello from vl-jepa!")
+from vl_jepa.main import main
+
+__all__ = ["main"]
