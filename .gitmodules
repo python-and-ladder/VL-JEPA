@@ -1,0 +1,3 @@
+[submodule "VLA-JEPA"]
+	path = VLA-JEPA
+	url = git@github.com:python-and-ladder/VLA-JEPA.git

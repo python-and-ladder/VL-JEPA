@@ -667,7 +667,7 @@ wheels = [
 ]
 
 [[package]]
-name = "vl-jepa"
+name = "vla-jepa"
 version = "0.1.0"
 source = { editable = "." }
 dependencies = [
